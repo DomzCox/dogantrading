@@ -18,7 +18,10 @@ function App() {
         <label className="mr-10 text-2xl">
           Get the free ebook
         </label>
-        <input className="border-teal-100 center" type="text" placeholder="email@emailaddressdotdomain"/>
+        <input className="rounded border-2 border-teal-700 p-3 border-dashed center" type="text" placeholder="email@emailaddressdotdomain"/>
+        <button className="ml-10 text-2xl text-teal-100 p-3 bg-teal-800">
+          Get Ebook!
+        </button>
       </div>
 
       <Footer />
