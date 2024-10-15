@@ -6,7 +6,7 @@ import Footer from "./shared/components/Footer";
 function App() {
   return (
     <>
-    <Topnav />
+    
       <div className='container'>
         <Landing />
         <h1 className="text-5xl text-teal-900 font-bold text-center mt-28">
