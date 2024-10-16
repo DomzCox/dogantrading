@@ -1,31 +1,30 @@
 import Landing from "./shared/components/Landing";
 import Topnav from "./shared/components/navigation/Topnav";
 import Footer from "./shared/components/Footer";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Shop from "./pages/Shop";
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element = {<Topnav />}>
+      <Route index element={<Home />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="about" element={<About />} />
+      <Route path="shop" element={<Shop />} />
+    </Route>
+
+
+  )
+)
 
 function App() {
   return (
     <>
-    <Topnav />
-      <div className='container'>
-        <Landing />
-        <h1 className="text-5xl text-teal-900 font-bold text-center mt-28">
-        Inspired by beginner traders just like you"
-      </h1>
-
-      
-      <div className="text-center mt-16">
-        <label className="mr-10 text-2xl">
-          Get the free ebook
-        </label>
-        <input className="rounded border-2 border-teal-700 p-3 border-dashed center" type="text" placeholder="email@emailaddressdotdomain"/>
-        <button className="ml-10 text-2xl text-teal-100 p-3 bg-teal-800">
-          Get Ebook!
-        </button>
-      </div>
-
-      <Footer />
-      </div>
+      <RouterProvider router={router} />
     </>
   );
 }
