@@ -1,6 +1,6 @@
 import React from 'react'
 import Landing from '../shared/components/Landing'
-import Footer from '../shared/components/Footer'
+
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         </button>
       </div>
 
-      <Footer />
+      
       </div>
   )
 }

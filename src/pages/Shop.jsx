@@ -15,12 +15,13 @@ export default function Shop() {
                     </div>
                 </li>
                 <li>
-                    Mugs
+                <h2 className="underline">Mugs</h2>
                     <div className="border-solid mt-10">
                         <img src="https://placehold.co/400" alt="" />
                     </div>
                     </li>
-                <li>Caps
+                <li>
+                <h2 className="underline">Bennies</h2>
                 <div className="border-solid mt-10">
                         <img src="https://placehold.co/400" alt="" />
                     </div>

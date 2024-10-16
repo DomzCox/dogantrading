@@ -20,8 +20,8 @@ export default function Topnav() {
       </div>
 
       <div className="m-3 p-3 font-semibold underline">
-        <Link to="contact">
-          Contact
+        <Link to="help">
+          Help
         </Link>
       </div>
 
