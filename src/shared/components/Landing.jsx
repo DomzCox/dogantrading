@@ -1,8 +1,13 @@
-import React from 'react'
+import chart from "../../images/chart.jpg"
 
 export default function Landing() {
   return (
     <div className="container mx-auto px-4 pt-10 mt-10">
+
+      <div>
+      <img src={chart} className="h-25" alt="" />
+      </div>
+
       <div className="flex justify-evenly">
         <div>
         <h2 className="text-2xl text-teal-500 mb-10 p-2">
