@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="container flex flex-row pt-10 bg-slate-200 mt-16">
+    <div className="container flex flex-col sm:flex-row pt-10 bg-slate-200 mt-16">
         
 
     <div className="m-1 basis-1/4 p-4 border-spacing-4">

@@ -4,7 +4,7 @@ export default function Faq() {
     <div>
         
        <h3 className="mt-10 font-bold text-gray-400 mb-5">  Frequently asked questions</h3>
-
+       <div className="sm:flex justify-evenly gap-5 text-left">
         <div className="mt-5">
             <h1 className="text-gray-600">What is the best way to start trading</h1>
             <p>
@@ -35,7 +35,7 @@ export default function Faq() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ex deserunt saepe a nulla, voluptate architecto excepturi vitae facere voluptas soluta maxime natus molestiae earum ullam, modi qui fuga placeat!
             </p>
         </div>
-      
+        </div>
         </div>
   )
 }

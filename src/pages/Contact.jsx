@@ -8,21 +8,23 @@ export default function Contact() {
 
           <div className=''>
             <label htmlFor="name">Name: </label>
-            <input className="border-2" type="text" placeholder='Name'/>
+            <input className="border-2 w-1/2 p-3" type="text" placeholder='Name'/>
             
           </div>
-          <div>
+          <div className="mt-5">
             <label htmlFor="email">Email: </label>
-          <input className="border-2" type="text" placeholder='Name'/>
+          <input className="border-2 w-1/2 p-3" type="text" placeholder='Name'/>
             
           </div>
           <div>
-            <label htmlFor="message">Your message: </label>
-          <textarea className="border-2" />
+            <div className="mt-5">
+            <label htmlFor="message" className="">Your message: </label>
+            </div>
+            <textarea className="border-2 w-1/2 h-32" />
           </div>
 
           <div>
-            <button className="mt-10">
+            <button className="mt-10 btn">
               Send Message
             </button>
           </div>

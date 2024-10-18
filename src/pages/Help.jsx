@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom'
 export default function Help() {
   return (
     <div className="container">
-        <h1 className="text-2xl text-teal-500 mb-10 mt-10">Help</h1>
+        <h1 className="text-2xl font-semibold text-teal-500 mb-10 mt-10">Help</h1>
         <p className="mb-10">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae quasi harum asperiores sequi nisi ducimus quas. Officiis pariatur nisi, vero et vel deserunt sint atque ex, quam cumque debitis.
         </p>
