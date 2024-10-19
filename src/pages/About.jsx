@@ -2,13 +2,16 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="container px-4 pt-10 mt-10">
-        <h1>
+    <div className="container pt-10 mt-10">
+        <h1 className=" font-semibold text-2xl text-teal-600 mb-10">
             About
-            <p className="text-5xl">
-                CFO I want you to start writing about our about page talking about our Journey and why we are more than qualified to be advisors in this space
-            </p>
+            
         </h1>
+
+        <p className="text-gray-500 ">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nostrum excepturi nihil facere quos nam, quo ipsa quod sapiente sequi eveniet porro earum. Soluta natus incidunt sunt sint. Molestias, molestiae.
+        </p>
+
     </div>
   )
 }

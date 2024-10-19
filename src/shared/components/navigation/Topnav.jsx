@@ -42,6 +42,8 @@ export default function Topnav() {
                           </Link>
                         </div>
                   </div>
+
+                  {/*Hidable dropdown menu */}
                     
               <div className={`bg-teal-600 text-teal-50 absolute top-12 left-0 w-full flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform xl:hidden ${isOpen ? "opacity-100" : "opacity-0"}`}>
                 <li className="list-none hover:bg-teal-500 w-full text-center px-3 py-3">

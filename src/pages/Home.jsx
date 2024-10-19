@@ -1,5 +1,6 @@
 import React from 'react'
 import Landing from '../shared/components/Landing'
+import { EbookForm } from '../shared/components/EbookForm'
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         Inspired by beginner traders just like you"
       </h1>
 
+     
       
       <div className="text-center mt-16">
         <label className="mr-10 text-2xl">
